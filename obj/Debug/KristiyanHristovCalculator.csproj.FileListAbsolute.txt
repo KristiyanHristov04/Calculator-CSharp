@@ -1,0 +1,32 @@
+C:\Users\User\Documents\Visual Studio 2012\Projects\KristiyanHristovCalculator\bin\Debug\KristiyanHristovCalculator.exe.config
+C:\Users\User\Documents\Visual Studio 2012\Projects\KristiyanHristovCalculator\bin\Debug\KristiyanHristovCalculator.exe
+C:\Users\User\Documents\Visual Studio 2012\Projects\KristiyanHristovCalculator\bin\Debug\KristiyanHristovCalculator.pdb
+C:\Users\User\Documents\Visual Studio 2012\Projects\KristiyanHristovCalculator\obj\Debug\KristiyanHristovCalculator.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2012\Projects\KristiyanHristovCalculator\obj\Debug\KristiyanHristovCalculator.Form1.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\KristiyanHristovCalculator\obj\Debug\KristiyanHristovCalculator.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\KristiyanHristovCalculator\obj\Debug\KristiyanHristovCalculator.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2012\Projects\KristiyanHristovCalculator\obj\Debug\KristiyanHristovCalculator.exe
+C:\Users\User\Documents\Visual Studio 2012\Projects\KristiyanHristovCalculator\obj\Debug\KristiyanHristovCalculator.pdb
+G:\Кристиян Хр. 12б - Калкулатор\bin\Debug\KristiyanHristovCalculator.exe.config
+G:\Кристиян Хр. 12б - Калкулатор\obj\Debug\KristiyanHristovCalculator.exe
+G:\Кристиян Хр. 12б - Калкулатор\obj\Debug\KristiyanHristovCalculator.pdb
+E:\Кристиян Хр. 12б - Калкулатор\bin\Debug\KristiyanHristovCalculator.exe.config
+E:\Кристиян Хр. 12б - Калкулатор\bin\Debug\KristiyanHristovCalculator.exe
+E:\Кристиян Хр. 12б - Калкулатор\bin\Debug\KristiyanHristovCalculator.pdb
+E:\Кристиян Хр. 12б - Калкулатор\obj\Debug\KristiyanHristovCalculator.csproj.AssemblyReference.cache
+E:\Кристиян Хр. 12б - Калкулатор\obj\Debug\KristiyanHristovCalculator.Form1.resources
+E:\Кристиян Хр. 12б - Калкулатор\obj\Debug\KristiyanHristovCalculator.Properties.Resources.resources
+E:\Кристиян Хр. 12б - Калкулатор\obj\Debug\KristiyanHristovCalculator.csproj.GenerateResource.cache
+E:\Кристиян Хр. 12б - Калкулатор\obj\Debug\KristiyanHristovCalculator.csproj.CoreCompileInputs.cache
+E:\Кристиян Хр. 12б - Калкулатор\obj\Debug\KristiyanHristovCalculator.exe
+E:\Кристиян Хр. 12б - Калкулатор\obj\Debug\KristiyanHristovCalculator.pdb
+C:\Users\KrisPC\OneDrive\Desktop\Calculator\bin\Debug\KristiyanHristovCalculator.exe.config
+C:\Users\KrisPC\OneDrive\Desktop\Calculator\bin\Debug\KristiyanHristovCalculator.exe
+C:\Users\KrisPC\OneDrive\Desktop\Calculator\bin\Debug\KristiyanHristovCalculator.pdb
+C:\Users\KrisPC\OneDrive\Desktop\Calculator\obj\Debug\KristiyanHristovCalculator.csproj.AssemblyReference.cache
+C:\Users\KrisPC\OneDrive\Desktop\Calculator\obj\Debug\KristiyanHristovCalculator.Form1.resources
+C:\Users\KrisPC\OneDrive\Desktop\Calculator\obj\Debug\KristiyanHristovCalculator.Properties.Resources.resources
+C:\Users\KrisPC\OneDrive\Desktop\Calculator\obj\Debug\KristiyanHristovCalculator.csproj.GenerateResource.cache
+C:\Users\KrisPC\OneDrive\Desktop\Calculator\obj\Debug\KristiyanHristovCalculator.csproj.CoreCompileInputs.cache
+C:\Users\KrisPC\OneDrive\Desktop\Calculator\obj\Debug\KristiyanHristovCalculator.exe
+C:\Users\KrisPC\OneDrive\Desktop\Calculator\obj\Debug\KristiyanHristovCalculator.pdb
