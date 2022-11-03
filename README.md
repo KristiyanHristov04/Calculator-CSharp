@@ -1,5 +1,5 @@
 # Calculator-CSharp
-This is a calculator made inside C# using Windows Forms. 
+This is a calculator made with C# using Windows Forms. 
 
 
 <img src="https://cdn.discordapp.com/attachments/323107036990668810/1037446694301859910/unknown.png">
