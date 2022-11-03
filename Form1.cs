@@ -20,7 +20,7 @@ namespace KristiyanHristovCalculator
         }
 
         SoundPlayer calcSound = new SoundPlayer("CalculatorSoundEffect.wav");
-        
+
         double firstNumberValue = 0;
         double secondNumberValue = 0;
         double result = 0;
@@ -111,7 +111,7 @@ namespace KristiyanHristovCalculator
         }
 
         private void addButton_Click(object sender, EventArgs e)
-        { 
+        {
             isInOperationMode = true;
             isInAdditionMode = true;
             textBox1.Text = "+";
@@ -120,46 +120,54 @@ namespace KristiyanHristovCalculator
 
         private void button12_Click(object sender, EventArgs e)
         {
-            calcSound.Play();
-            firstNumberValue = Convert.ToDouble(firstNumberStringValue);
-            secondNumberValue = Convert.ToDouble(secondNumberStringValue);
+            try
+            {
+                calcSound.Play();
+                firstNumberValue = Convert.ToDouble(firstNumberStringValue);
+                secondNumberValue = Convert.ToDouble(secondNumberStringValue);
 
-            if (isInAdditionMode)
-            {
-                result = firstNumberValue + secondNumberValue;
-                textBox1.Text = result.ToString();
-                secondNumberStringValue = string.Empty;
-                firstNumberStringValue = result.ToString();
-                isInAdditionMode = false;
-                isInOperationMode = false;
+                if (isInAdditionMode)
+                {
+                    result = firstNumberValue + secondNumberValue;
+                    textBox1.Text = result.ToString();
+                    secondNumberStringValue = string.Empty;
+                    firstNumberStringValue = result.ToString();
+                    isInAdditionMode = false;
+                    isInOperationMode = false;
+                }
+                else if (isInSubtractionMode)
+                {
+                    result = firstNumberValue - secondNumberValue;
+                    textBox1.Text = result.ToString();
+                    secondNumberStringValue = string.Empty;
+                    firstNumberStringValue = result.ToString();
+                    isInSubtractionMode = false;
+                    isInOperationMode = false;
+                }
+                else if (isInMultiplicationMode)
+                {
+                    result = firstNumberValue * secondNumberValue;
+                    textBox1.Text = result.ToString();
+                    secondNumberStringValue = string.Empty;
+                    firstNumberStringValue = result.ToString();
+                    isInMultiplicationMode = false;
+                    isInOperationMode = false;
+                }
+                else if (isInDivisionMode)
+                {
+                    result = firstNumberValue / secondNumberValue;
+                    textBox1.Text = result.ToString();
+                    secondNumberStringValue = string.Empty;
+                    firstNumberStringValue = result.ToString();
+                    isInDivisionMode = false;
+                    isInOperationMode = false;
+                }
             }
-            else if (isInSubtractionMode)
+            catch (Exception)
             {
-                result = firstNumberValue - secondNumberValue;
-                textBox1.Text = result.ToString();
-                secondNumberStringValue = string.Empty;
-                firstNumberStringValue = result.ToString();
-                isInSubtractionMode = false;
-                isInOperationMode = false;
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            else if (isInMultiplicationMode)
-            {
-                result = firstNumberValue * secondNumberValue;
-                textBox1.Text = result.ToString();
-                secondNumberStringValue = string.Empty;
-                firstNumberStringValue = result.ToString();
-                isInMultiplicationMode = false;
-                isInOperationMode = false;
-            }
-            else if (isInDivisionMode)
-            {
-                result = firstNumberValue / secondNumberValue;
-                textBox1.Text = result.ToString();
-                secondNumberStringValue = string.Empty;
-                firstNumberStringValue = result.ToString();
-                isInDivisionMode = false;
-                isInOperationMode = false;
-            }
+
         }
 
         private void button13_Click(object sender, EventArgs e)
