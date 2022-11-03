@@ -112,7 +112,7 @@ namespace KristiyanHristovCalculator
 
         private void addButton_Click(object sender, EventArgs e)
         {
-
+            calcSound.Play();
             if (secondNumberStringValue != null && isInOperationMode)
             {
                 MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -126,7 +126,6 @@ namespace KristiyanHristovCalculator
                 isInOperationMode = true;
                 isInAdditionMode = true;
                 textBox1.Text = "+";
-                calcSound.Play();
             }
             else
             {
@@ -204,6 +203,7 @@ namespace KristiyanHristovCalculator
 
         private void button14_Click(object sender, EventArgs e)
         {
+            calcSound.Play();
             if (secondNumberStringValue != null && isInOperationMode)
             {
                 MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -217,7 +217,6 @@ namespace KristiyanHristovCalculator
                 isInOperationMode = true;
                 isInSubtractionMode = true;
                 textBox1.Text = "-";
-                calcSound.Play();
             }
             else
             {
@@ -227,6 +226,7 @@ namespace KristiyanHristovCalculator
 
         private void button15_Click(object sender, EventArgs e)
         {
+            calcSound.Play();
             if (secondNumberStringValue != null && isInOperationMode)
             {
                 MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -240,7 +240,6 @@ namespace KristiyanHristovCalculator
                 isInOperationMode = true;
                 isInMultiplicationMode = true;
                 textBox1.Text = "X";
-                calcSound.Play();
             }
             else
             {
@@ -250,6 +249,7 @@ namespace KristiyanHristovCalculator
 
         private void button16_Click(object sender, EventArgs e)
         {
+            calcSound.Play();
             if (secondNumberStringValue != null && isInOperationMode)
             {
                 MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);

@@ -30,3 +30,13 @@ C:\Users\KrisPC\OneDrive\Desktop\Calculator\obj\Debug\KristiyanHristovCalculator
 C:\Users\KrisPC\OneDrive\Desktop\Calculator\obj\Debug\KristiyanHristovCalculator.csproj.CoreCompileInputs.cache
 C:\Users\KrisPC\OneDrive\Desktop\Calculator\obj\Debug\KristiyanHristovCalculator.exe
 C:\Users\KrisPC\OneDrive\Desktop\Calculator\obj\Debug\KristiyanHristovCalculator.pdb
+C:\Users\KrisPC\OneDrive\Desktop\CalculatorClone\Calculator-CSharp\bin\Debug\KristiyanHristovCalculator.exe.config
+C:\Users\KrisPC\OneDrive\Desktop\CalculatorClone\Calculator-CSharp\bin\Debug\KristiyanHristovCalculator.exe
+C:\Users\KrisPC\OneDrive\Desktop\CalculatorClone\Calculator-CSharp\bin\Debug\KristiyanHristovCalculator.pdb
+C:\Users\KrisPC\OneDrive\Desktop\CalculatorClone\Calculator-CSharp\obj\Debug\KristiyanHristovCalculator.csproj.AssemblyReference.cache
+C:\Users\KrisPC\OneDrive\Desktop\CalculatorClone\Calculator-CSharp\obj\Debug\KristiyanHristovCalculator.Form1.resources
+C:\Users\KrisPC\OneDrive\Desktop\CalculatorClone\Calculator-CSharp\obj\Debug\KristiyanHristovCalculator.Properties.Resources.resources
+C:\Users\KrisPC\OneDrive\Desktop\CalculatorClone\Calculator-CSharp\obj\Debug\KristiyanHristovCalculator.csproj.GenerateResource.cache
+C:\Users\KrisPC\OneDrive\Desktop\CalculatorClone\Calculator-CSharp\obj\Debug\KristiyanHristovCalculator.csproj.CoreCompileInputs.cache
+C:\Users\KrisPC\OneDrive\Desktop\CalculatorClone\Calculator-CSharp\obj\Debug\KristiyanHristovCalculator.exe
+C:\Users\KrisPC\OneDrive\Desktop\CalculatorClone\Calculator-CSharp\obj\Debug\KristiyanHristovCalculator.pdb
