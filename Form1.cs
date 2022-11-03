@@ -112,10 +112,26 @@ namespace KristiyanHristovCalculator
 
         private void addButton_Click(object sender, EventArgs e)
         {
-            isInOperationMode = true;
-            isInAdditionMode = true;
-            textBox1.Text = "+";
-            calcSound.Play();
+
+            if (secondNumberStringValue != null && isInOperationMode)
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (string.IsNullOrEmpty(firstNumberStringValue))
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (!isInSubtractionMode && !isInDivisionMode && !isInMultiplicationMode)
+            {
+                isInOperationMode = true;
+                isInAdditionMode = true;
+                textBox1.Text = "+";
+                calcSound.Play();
+            }
+            else
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -178,30 +194,82 @@ namespace KristiyanHristovCalculator
             secondNumberValue = 0;
             textBox1.Text = "0";
             calcSound.Play();
+
+            isInOperationMode = false;
+            isInAdditionMode = false;
+            isInSubtractionMode = false;
+            isInMultiplicationMode = false;
+            isInDivisionMode = false;
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            isInOperationMode = true;
-            isInSubtractionMode = true;
-            textBox1.Text = "-";
-            calcSound.Play();
+            if (secondNumberStringValue != null && isInOperationMode)
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (string.IsNullOrEmpty(firstNumberStringValue))
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (!isInAdditionMode && !isInDivisionMode && !isInMultiplicationMode)
+            {
+                isInOperationMode = true;
+                isInSubtractionMode = true;
+                textBox1.Text = "-";
+                calcSound.Play();
+            }
+            else
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            isInOperationMode = true;
-            isInMultiplicationMode = true;
-            textBox1.Text = "X";
-            calcSound.Play();
+            if (secondNumberStringValue != null && isInOperationMode)
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (string.IsNullOrEmpty(firstNumberStringValue))
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (!isInAdditionMode && !isInDivisionMode && !isInSubtractionMode)
+            {
+                isInOperationMode = true;
+                isInMultiplicationMode = true;
+                textBox1.Text = "X";
+                calcSound.Play();
+            }
+            else
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            isInOperationMode = true;
-            isInDivisionMode = true;
-            textBox1.Text = "/";
-            calcSound.Play();
+            if (secondNumberStringValue != null && isInOperationMode)
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
+            else if (string.IsNullOrEmpty(firstNumberStringValue))
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (!isInAdditionMode && !isInSubtractionMode && !isInMultiplicationMode)
+            {
+                isInOperationMode = true;
+                isInDivisionMode = true;
+                textBox1.Text = "/";
+                calcSound.Play();
+            }
+            else
+            {
+                MessageBox.Show("INVALID OPERATION!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
         private void AddNumberValue(Button button)
         {
